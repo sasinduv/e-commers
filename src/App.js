@@ -1,10 +1,18 @@
-
+import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from "./pages";
+import Header from "./components/header";
 
 function App() {
   return (
     <>
-    <h1 className="text-danger">Welcome to my e-commerce website!</h1>
+    <BrowserRouter>
+    <Header />
+    <Routes>
+      <Route path="/" element= {<Home />} />
+    </Routes>
+    </BrowserRouter>
     </>
   );
 }
