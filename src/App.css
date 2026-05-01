@@ -10,3 +10,7 @@ body {
 
 .headerWrapper .top-strip{ padding: 8px 0px;}
 .headerWrapper .top-strip p {color: #fff;}
+
+.headerWrapper .header { width: 100%; height: auto; padding: 15px 0px;}
+.logoWrapper img { width: 100%;}
+.headerWrapper .header .part2 .countryDrop { width: 150px; height: 80px; min-width: 150px;}
