@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 
 import CountryDropdown from "../CountryDropdown";
+import Navigation from "../Navigation";
 import Button from "@mui/material/Button";
 
 import { IoSearchCircleOutline } from "react-icons/io5";
@@ -75,11 +76,10 @@ const Header = () => {
                                 </div>
 
                             </div>
-
                         </div>
                     </div>
                 </header>
-
+                    <Navigation />
             </div>
         </>
     );

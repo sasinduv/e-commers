@@ -308,3 +308,24 @@ body{
         height: 55px;
     }
 }
+
+nav .allCatTab{ 
+    background: #c466f7; padding: 8px 20px !important;
+    margin: 10px;
+    border-radius: 30px !important;
+}
+
+nav .allCatTab:hover{
+    background: #ee4cc8;
+}
+nav .allCatTab .text{
+    font-weight: 500;
+    color: #000;
+}
+
+nav .allCatTab .icon1 svg{
+    margin-left: 5px;
+    margin-bottom: 2px;
+    font-size: 14px;
+    color: #000;
+}
