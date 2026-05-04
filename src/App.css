@@ -10,6 +10,19 @@ body{
     font-family: "Lato", sans-serif;
 }
 
+::-webkit-scrollbar{
+    width: 8px !important;
+    height: 8px !important;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #ccc !important;
+}
+
+::-webkit-scrollbar-track{
+    background: transparent !important;
+}
+
 /* =========================
    COMMON
 ========================= */
@@ -354,4 +367,48 @@ nav .navPart2 ul li a:hover{
 
 nav .navPart2 ul li a svg{
     font-size: 20px;
+}
+
+.locationModa .headerSearch button{
+    margin: 10px;
+}
+
+.locationModal .MuiPaper-elevation{ 
+    padding: 25px;
+    position: relative;
+}
+
+.locationModal .countryList{
+    margin-bottom: 0px;
+    max-height: 400px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.locationModal .countryList li{
+    width: 100%;
+    list-style: none;
+}
+
+.locationModal .countryList li button{
+    width: 100%;
+    text-transform: capitalize !important;
+    color: #000 !important;
+    justify-content: flex-start !important;
+    padding: 10px 20px !important;
+}
+
+.locationModal .closeCountryList{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: #000 !important;
+    min-width: 40px !important;
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50px !important;
+}
+
+.locationModal .closeCountryList svg{
+    font-size: 22px;
 }
